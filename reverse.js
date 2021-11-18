@@ -30,4 +30,4 @@ function initReverse() {
     var splitText = str.split("\n");
     var finalText = splitText.map(x=>x=reverseString(x));
     $("textarea").val(finalText.join("\n"));
-}
+} 
